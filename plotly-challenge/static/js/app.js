@@ -31,6 +31,7 @@ function buildCharts(sample) {
     var trace1 = {
       x: [TopOTU_ids],
       y: [TopSample_values],
+      text: [TopOTU_labels],
       mode: 'markers',
       marker: {
         size: [topSample_values]
